@@ -169,7 +169,7 @@ module inst_mem (
             rom[i] = 16'h0000;
         end
 
-        // THE MAGIC LINE: Load the text file into the ROM!
+        //Load the text file into the ROM
         $readmemh("machine_code.hex", rom);
     end
     
