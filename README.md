@@ -75,20 +75,6 @@ Possible interpretation:
 ADD R1, R2, R3
 ```
 
-## Project Structure
-
-```text
-.
-├── cpu.v
-├── pc.v
-├── instruction_memory.v
-├── control_unit.v
-├── register_file.v
-├── alu.v
-├── data_memory.v
-├── cpu_tb.v
-└── README.md
-```
 
 ## Execution Flow
 
